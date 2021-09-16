@@ -3,7 +3,6 @@
     <!--头部区-->
     <el-header>
       <div>
-        <img src='../assets/logo1.png' alt=''>
         <span>数据综合治理与分析挖掘平台</span>
       </div>
       <el-button type='info' @click='logout'>退出</el-button>
@@ -51,6 +50,9 @@
         <!--路由占位符-->
         <router-view></router-view>
       </el-main>
+      <el-footer>
+        123
+      </el-footer>
     </el-container>
   </el-container>
 </template>
